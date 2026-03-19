@@ -16,7 +16,7 @@ const Hero = () => {
       >
         <img 
           src={backgroundImage} 
-          alt="Prime Real Estate" 
+          alt="Anu the Landlady" 
           className="w-full h-full object-cover" 
           loading="eager"
         />
@@ -40,7 +40,7 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="text-[10px] md:text-xs tracking-[0.4em] uppercase text-white/70 mb-4 md:mb-6 font-light"
           >
-            Ozi Tech Properties • Port Harcourt
+            Anu the Landlady • Lagos • Ilorin • Ibadan • More
           </motion.span>
 
           <h1 className="text-5xl sm:text-7xl md:text-9xl font-extralight tracking-tighter text-white mb-6 leading-[0.85] max-w-5xl">

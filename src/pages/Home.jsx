@@ -61,10 +61,10 @@ const Home = () => {
                 Featured Properties
               </span>
               <h2 className="text-4xl md:text-5xl font-extralight tracking-tighter mb-6 italic text-gray-900">
-                Prime <span className="not-italic text-blue-900">Listings</span> in Old GRA, New GRA & Trans Amadi
+                Prime <span className="not-italic text-blue-900">Listings</span> in Lagos, Ilorin & Ibadan
               </h2>
               <p className="text-gray-500 font-light max-w-xl mx-auto text-sm leading-relaxed">
-                Discover residential homes, commercial spaces, and land for sale or rent in Port Harcourt's most desirable neighborhoods.
+                Discover residential homes, commercial spaces, and land for sale or rent in Nigeria's most desirable neighborhoods.
               </p>
             </div>
 

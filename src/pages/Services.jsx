@@ -19,7 +19,7 @@ const Services = () => {
     <div className="bg-white min-h-screen">
       <Helmet>
         <title>Our Services | {siteConfig.companyName}</title>
-        <meta name="description" content="Professional real estate services in Port Harcourt: Property sales, rentals, and management in Old GRA, New GRA, Trans Amadi, and beyond. Expert guidance for buyers, sellers, and landlords." />
+        <meta name="description" content="Property management, rentals, and sales across Lagos, Ilorin, Ibadan, and beyond. Personal, honest service from Anu the Landlady – your trusted partner in Nigerian real estate." />
       </Helmet>
 
       {/* Header Section */}
@@ -33,15 +33,15 @@ const Services = () => {
           >
             <div className="max-w-2xl">
               <span className="text-[10px] tracking-[0.5em] uppercase text-blue-900/60 mb-4 block font-bold">
-                Professional Services
+                What I Offer
               </span>
               <h1 className="text-5xl md:text-7xl font-extralight tracking-tighter text-gray-900 leading-none">
-                Our <span className="italic text-blue-900">Services</span>
+                My <span className="italic text-blue-900">Services</span>
               </h1>
             </div>
             <div className="hidden md:block">
               <p className="text-[10px] uppercase tracking-[0.3em] text-blue-900/40 font-bold italic">
-                Old GRA &bull; New GRA &bull; Trans Amadi &bull; Port Harcourt
+                Lagos &bull; Ilorin &bull; Ibadan &bull; More
               </p>
             </div>
           </motion.div>
@@ -76,10 +76,10 @@ const Services = () => {
       <section className="py-24 border-t border-blue-900/20 bg-gray-50">
         <div className="max-w-3xl mx-auto text-center px-6">
           <h2 className="text-2xl font-extralight tracking-tight text-gray-900 mb-6 italic">
-            Need help with your property needs?
+            Need a hand with your property?
           </h2>
           <p className="text-gray-600 font-light text-sm mb-10 leading-relaxed max-w-xl mx-auto">
-            Whether you're buying your first home, looking for a rental in Old GRA, New GRA, or Trans Amadi, or seeking professional management for your investment, our team is ready to assist you with personalized service.
+            Whether you're looking for a rental in Lagos, need a trustworthy tenant in Ibadan, or want to buy your first home in Ilorin – I'm here to help. No stress, just honest support.
           </p>
           <motion.a 
             href="/contact"

@@ -24,7 +24,7 @@ const ServiceDetail = () => {
     )
   }
 
-  const whatsappLink = `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(`I would like to inquire about the ${service.title} service.`)}`
+  const whatsappLink = `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(`Hello Anu, I would like to inquire about your ${service.title} service.`)}`
 
   return (
     <div className="bg-white text-gray-900 min-h-screen">
@@ -53,7 +53,7 @@ const ServiceDetail = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            <span className="text-[10px] tracking-[0.6em] uppercase text-blue-900/60 mb-6 block font-bold">Our Service</span>
+            <span className="text-[10px] tracking-[0.6em] uppercase text-blue-900/60 mb-6 block font-bold">Anu's Service</span>
             <h1 className="text-5xl md:text-8xl font-extralight tracking-tighter leading-none text-gray-900">
               {service.title.split(' ').map((word, i) => i === 1 ? <span key={i} className="italic text-blue-900">{word} </span> : word + ' ')}
             </h1>
@@ -67,7 +67,7 @@ const ServiceDetail = () => {
           
           {/* Main Description */}
           <div className="lg:col-span-7">
-            <h2 className="text-[10px] tracking-[0.3em] uppercase text-blue-900/60 mb-10 font-bold">Service Overview</h2>
+            <h2 className="text-[10px] tracking-[0.3em] uppercase text-blue-900/60 mb-10 font-bold">What This Means for You</h2>
             <p className="text-xl md:text-2xl font-light text-gray-700 leading-relaxed mb-16 italic">
               {service.description}
             </p>
@@ -75,7 +75,7 @@ const ServiceDetail = () => {
             {service.features && (
               <div className="space-y-16">
                 <div>
-                  <h3 className="text-[10px] tracking-[0.4em] uppercase text-blue-900/40 mb-10 font-bold">What We Offer</h3>
+                  <h3 className="text-[10px] tracking-[0.4em] uppercase text-blue-900/40 mb-10 font-bold">What's Included</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-16">
                     {service.features.map((feature, idx) => (
                       <motion.div 
@@ -101,7 +101,7 @@ const ServiceDetail = () => {
               <div className="mb-10">
                 <p className="text-[10px] tracking-[0.4em] uppercase text-blue-900/60 mb-3 font-bold">Pricing</p>
                 <p className="text-4xl font-extralight tracking-tighter text-blue-900">{service.price}</p>
-                <p className="text-[9px] text-blue-900/30 mt-2 uppercase tracking-widest italic font-light">Call for current rates</p>
+                <p className="text-[9px] text-blue-900/30 mt-2 uppercase tracking-widest italic font-light">Let's discuss your needs</p>
               </div>
               
               <div className="flex flex-col gap-4">
@@ -109,7 +109,7 @@ const ServiceDetail = () => {
                   to="/contact" 
                   className="w-full py-5 bg-blue-900 text-white text-center rounded-full text-[11px] font-bold uppercase tracking-[0.3em] hover:bg-blue-800 transition-all duration-500"
                 >
-                  Request Service
+                  Talk to Anu
                 </Link>
                 <a 
                   href={whatsappLink} 
@@ -117,18 +117,18 @@ const ServiceDetail = () => {
                   rel="noopener noreferrer" 
                   className="w-full py-5 border border-blue-900/30 text-gray-900 text-center rounded-full text-[11px] font-bold uppercase tracking-[0.3em] hover:border-blue-900 transition-all duration-500"
                 >
-                  WhatsApp Inquiry
+                  WhatsApp Anu
                 </a>
               </div>
               
               <div className="mt-10 pt-10 border-t border-blue-900/20 space-y-4">
                 <div className="flex justify-between items-center">
-                  <span className="text-[9px] uppercase tracking-widest text-blue-900/40 font-bold">Service Area</span>
-                  <span className="text-[10px] uppercase tracking-widest text-gray-700">Old GRA, New GRA & Port Harcourt</span>
+                  <span className="text-[9px] uppercase tracking-widest text-blue-900/40 font-bold">Serving</span>
+                  <span className="text-[10px] uppercase tracking-widest text-gray-700">Lagos • Ilorin • Ibadan • More</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-[9px] uppercase tracking-widest text-blue-900/40 font-bold">Documentation</span>
-                  <span className="text-[10px] uppercase tracking-widest text-gray-700">Verified & Legal</span>
+                  <span className="text-[9px] uppercase tracking-widest text-blue-900/40 font-bold">Peace of Mind</span>
+                  <span className="text-[10px] uppercase tracking-widest text-gray-700">Verified & Personal</span>
                 </div>
               </div>
             </div>

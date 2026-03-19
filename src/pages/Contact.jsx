@@ -30,16 +30,16 @@ const Contact = () => {
   }
 
   const contactMethods = [
-    { label: 'Call Us', value: siteConfig.phone, href: `tel:${siteConfig.phone}` },
+    { label: 'Call Anu', value: siteConfig.phone, href: `tel:${siteConfig.phone}` },
     { label: 'Email', value: siteConfig.email, href: `mailto:${siteConfig.email}` },
-    { label: 'WhatsApp', value: 'Chat with us', href: `https://wa.me/${siteConfig.whatsappNumber}` },
+    { label: 'WhatsApp', value: 'Chat with Anu', href: `https://wa.me/${siteConfig.whatsappNumber}` },
   ]
 
   return (
     <div className="bg-white text-gray-900 min-h-screen">
       <Helmet>
-        <title>Contact Us | {siteConfig.companyName}</title>
-        <meta name="description" content="Get in touch with Ozi Tech Properties in Port Harcourt. Call, WhatsApp, or email us to schedule viewings or inquire about properties in Old GRA, New GRA, Trans Amadi, and beyond." />
+        <title>Contact Anu | {siteConfig.companyName}</title>
+        <meta name="description" content="Get in touch with Anu the Landlady in Lagos, Ilorin, Ibadan, and beyond. Call, WhatsApp, or email to schedule viewings or inquire about properties." />
       </Helmet>
 
       <section className="pt-32 pb-24 px-6">
@@ -52,7 +52,7 @@ const Contact = () => {
           >
             <span className="text-[10px] tracking-[0.5em] uppercase text-blue-900/60 mb-4 block font-bold">Get in Touch</span>
             <h1 className="text-5xl md:text-8xl font-extralight tracking-tighter leading-none text-gray-900">
-              Contact <span className="italic text-blue-900">Us</span>
+              Contact <span className="italic text-blue-900">Anu</span>
             </h1>
           </motion.div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-[10px] tracking-[0.3em] uppercase text-blue-900/60 mb-6 font-bold">Let's Connect</h3>
                 <p className="text-lg font-light text-gray-700 leading-relaxed italic">
-                  Whether you're looking for your dream home, a rental property, or expert advice in Port Harcourt, we're here to help. Reach out today.
+                  Looking for a home, tenant, or just some friendly advice? I'm here to help – no pushy sales, just honest talk. Reach out and let's chat.
                 </p>
               </div>
 
@@ -80,6 +80,17 @@ const Contact = () => {
                     </a>
                   </div>
                 ))}
+              </div>
+
+              {/* Locations */}
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.3em] text-blue-900/40 mb-4 font-bold">Serving</p>
+                <div className="flex flex-wrap gap-3">
+                  <span className="text-[10px] uppercase tracking-widest text-gray-600 bg-gray-100 px-3 py-1 rounded-full">Lagos</span>
+                  <span className="text-[10px] uppercase tracking-widest text-gray-600 bg-gray-100 px-3 py-1 rounded-full">Ilorin</span>
+                  <span className="text-[10px] uppercase tracking-widest text-gray-600 bg-gray-100 px-3 py-1 rounded-full">Ibadan</span>
+                  <span className="text-[10px] uppercase tracking-widest text-gray-600 bg-gray-100 px-3 py-1 rounded-full">More</span>
+                </div>
               </div>
             </motion.div>
 
@@ -99,7 +110,7 @@ const Contact = () => {
                   >
                     <div className="w-12 h-[1px] bg-blue-900/30 mb-10" />
                     <h2 className="text-2xl font-extralight tracking-[0.3em] uppercase mb-4 text-blue-900 italic">Message Received</h2>
-                    <p className="text-gray-500 text-[11px] tracking-widest uppercase font-light">Thank you for reaching out. We'll get back to you shortly.</p>
+                    <p className="text-gray-500 text-[11px] tracking-widest uppercase font-light">Thank you for reaching out. I'll get back to you personally.</p>
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-12">

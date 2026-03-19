@@ -13,7 +13,7 @@ const Footer = () => {
       { name: 'Contact', path: '/contact' },
     ],
     contact: [
-      { name: 'WhatsApp', detail: 'Chat with us', href: `https://wa.me/${siteConfig.whatsappNumber}` },
+      { name: 'WhatsApp', detail: 'Chat with Anu', href: `https://wa.me/${siteConfig.whatsappNumber}` },
       { name: 'Call', detail: siteConfig.phone, href: `tel:${siteConfig.phone}` },
       { name: 'Email', detail: siteConfig.email, href: `mailto:${siteConfig.email}` },
     ]
@@ -91,7 +91,7 @@ const Footer = () => {
             </div>
             <div className="mt-12 md:mt-auto">
               <span className="text-[9px] tracking-[0.4em] uppercase text-blue-900/30 italic">
-                Old GRA &bull; New GRA &bull; Trans Amadi &bull; Port Harcourt
+                Lagos &bull; Ilorin &bull; Ibadan &bull; More
               </span>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
               &copy; {currentYear} {siteConfig.companyName}. All rights reserved.
             </p>
             <p className="text-[8px] tracking-[0.1em] text-blue-900/20 uppercase">
-              Licensed Real Estate Agent in Port Harcourt, Nigeria.
+              Your Trusted Landlady Across Nigeria
             </p>
           </div>
           <div className="flex gap-8">

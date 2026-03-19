@@ -51,7 +51,7 @@ const Header = () => {
             <span className={`text-[7px] tracking-[0.5em] uppercase mt-1.5 font-bold transition-colors duration-300 ${
               isHomeTop ? 'text-white/40' : 'text-blue-900/40'
             }`}>
-              Old GRA • New GRA • Trans Amadi • Port Harcourt
+              Lagos • Ilorin • Ibadan • More
             </span>
           </div>
         </Link>
@@ -143,9 +143,9 @@ const Header = () => {
               <p className="text-[10px] tracking-[0.4em] uppercase text-blue-900/60 mb-6 font-bold">Contact Our Team</p>
               <p className="text-xl text-gray-900 font-light tracking-widest">{siteConfig.phone}</p>
               <div className="mt-8 flex gap-6">
-                <span className="text-[10px] uppercase tracking-widest text-blue-900/40">Old GRA</span>
-                <span className="text-[10px] uppercase tracking-widest text-blue-900/40">New GRA</span>
-                <span className="text-[10px] uppercase tracking-widest text-blue-900/40">Trans Amadi</span>
+                <span className="text-[10px] uppercase tracking-widest text-blue-900/40">Lagos</span>
+                <span className="text-[10px] uppercase tracking-widest text-blue-900/40">Ilorin</span>
+                <span className="text-[10px] uppercase tracking-widest text-blue-900/40">Ibadan</span>
               </div>
             </div>
           </motion.div>

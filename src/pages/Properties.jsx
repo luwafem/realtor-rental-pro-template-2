@@ -13,8 +13,8 @@ const Properties = () => {
   return (
     <div className="bg-white text-gray-900 min-h-screen">
       <Helmet>
-        <title>Properties in Old GRA, New GRA & Trans Amadi | {siteConfig.companyName}</title>
-        <meta name="description" content="Explore our curated selection of residential and commercial properties for sale and rent in Old GRA, New GRA, Trans Amadi, and across Port Harcourt." />
+        <title>Properties in Lagos, Ilorin & Ibadan | {siteConfig.companyName}</title>
+        <meta name="description" content="Explore our curated selection of residential and commercial properties for sale and rent in Lagos, Ilorin, Ibadan, and across Nigeria with Anu the Landlady." />
       </Helmet>
 
       {/* Gallery Header */}
@@ -23,11 +23,11 @@ const Properties = () => {
           <motion.div {...fadeInUp} className="max-w-4xl">
             <span className="text-[10px] tracking-[0.5em] uppercase text-blue-900/60 mb-6 block font-bold">Featured Properties</span>
             <h1 className="text-5xl md:text-8xl font-extralight tracking-tighter leading-none mb-10 text-gray-900">
-              The Port Harcourt <br /> <span className="italic text-blue-900">Portfolio.</span>
+              The <span className="italic text-blue-900"></span> Collection
             </h1>
             <div className="flex flex-col md:flex-row gap-8 items-start justify-between border-t border-blue-900/20 pt-10">
               <p className="text-gray-600 font-light max-w-lg leading-relaxed italic">
-                A handpicked selection of premium properties across Port Harcourt's most desirable neighborhoods from Old GRA to New GRA, Trans Amadi, and beyond.
+                A handpicked selection of quality homes and investment properties across Lagos, Ilorin, Ibadan, and beyond – personally vetted by Anu.
               </p>
               <div className="flex items-center gap-4">
                 <span className="text-[9px] uppercase tracking-widest text-blue-900/40 font-bold">Available Listings:</span>
@@ -66,7 +66,7 @@ const Properties = () => {
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-[10px] uppercase tracking-[0.3em] text-blue-900/60 mb-8 font-bold">Looking for something specific?</p>
           <h2 className="text-3xl md:text-4xl font-extralight italic mb-12 text-gray-800">
-            Let us help you find <br className="hidden md:block" /> your perfect property in Port Harcourt
+            Let me help you find <br className="hidden md:block" /> your perfect property in Nigeria
           </h2>
           <div className="flex flex-col items-center gap-6">
             <a 

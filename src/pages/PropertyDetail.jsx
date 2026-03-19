@@ -17,15 +17,15 @@ const PropertyDetail = () => {
   if (!property) {
     return (
       <div className="min-h-screen bg-white flex flex-col items-center justify-center text-gray-900 p-6">
-        <p className="text-blue-900/60 tracking-widest uppercase text-xs mb-8 font-light">Estate not found</p>
+        <p className="text-blue-900/60 tracking-widest uppercase text-xs mb-8 font-light">Property not found</p>
         <Link to="/properties" className="border border-blue-900/30 px-8 py-3 rounded-full text-[10px] uppercase tracking-[0.3em] hover:bg-blue-900 hover:text-white transition-all">
-          Return to Collection
+          Browse all properties
         </Link>
       </div>
     )
   }
 
-  const whatsappMessage = encodeURIComponent(`Hello, I am interested in ${property.name} (${property.location}). Could you provide a private briefing?`)
+  const whatsappMessage = encodeURIComponent(`Hello Anu, I'm interested in ${property.name} (${property.location}). Could you tell me more?`)
   const whatsappLink = `https://wa.me/${siteConfig.whatsappNumber}?text=${whatsappMessage}`
 
   return (
@@ -120,7 +120,7 @@ const PropertyDetail = () => {
               {/* Refined CTA Group */}
               <div className="flex flex-col gap-4 pt-8">
                 <Link to="/contact" className="w-full bg-blue-900 text-white py-5 rounded-full text-[11px] font-bold uppercase tracking-[0.3em] text-center hover:bg-blue-800 transition-all shadow-sm">
-                  Inquire Privately
+                  Ask Anu
                 </Link>
                 <a 
                   href={whatsappLink} 
@@ -128,7 +128,7 @@ const PropertyDetail = () => {
                   rel="noopener noreferrer" 
                   className="w-full border border-blue-900/30 text-gray-900 py-5 rounded-full text-[11px] font-bold uppercase tracking-[0.3em] text-center hover:bg-blue-900/10 transition-all"
                 >
-                  WhatsApp Concierge
+                  Chat on WhatsApp
                 </a>
               </div>
             </motion.div>
