@@ -14,7 +14,7 @@ const About = () => {
     <div className="bg-white text-gray-900 min-h-screen">
       <Helmet>
         <title>About Anu | {siteConfig.companyName}</title>
-        <meta name="description" content={`Learn about ${siteConfig.companyName} – your trusted landlady across Nigeria. We are committed to helping you find the perfect property with care and professionalism.`} />
+        <meta name="description" content={`Learn about ${siteConfig.companyName} your trusted landlady across Nigeria. We are committed to helping you find the perfect property with care and professionalism.`} />
       </Helmet>
 
       {/* Narrative Header */}
@@ -28,7 +28,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
               <div className="md:col-span-7">
                 <p className="text-xl md:text-2xl font-light leading-relaxed text-gray-700 italic">
-                  {siteConfig.companyName} started with a simple belief: finding a home should feel personal, not transactional. I’m Anu, and I’ve built this brand to offer honest, caring, and professional real estate services to people across Nigeria – from Lagos to Ilorin, Ibadan, and beyond.
+                  {siteConfig.companyName} started with a simple belief: finding a home should feel personal, not transactional. I’m Anu, and I’ve built this brand to offer honest, caring, and professional real estate services to people across Nigeria from Lagos to Ilorin, Ibadan, and beyond.
                 </p>
               </div>
               <div className="md:col-span-5 flex flex-col gap-6 pt-2">
@@ -50,7 +50,7 @@ const About = () => {
               <div>
                 <h2 className="text-[10px] tracking-[0.4em] uppercase text-blue-900/60 mb-6 font-bold">My Promise</h2>
                 <p className="text-3xl font-extralight tracking-tight leading-snug text-gray-900">
-                  To offer <span className="italic">transparent, reliable,</span> and <span className="italic">heartfelt</span> real estate guidance – helping you navigate Nigeria's property market with confidence and a smile.
+                  To offer <span className="italic">transparent, reliable,</span> and <span className="italic">heartfelt</span> real estate guidance helping you navigate Nigeria's property market with confidence and a smile.
                 </p>
               </div>
               
@@ -69,9 +69,9 @@ const About = () => {
             {/* Why Choose Anu - Pillars of Trust */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                { title: "Personal Touch", desc: "I'm not a faceless agency – I'm Anu, your landlady. You get direct access and genuine care." },
+                { title: "Personal Touch", desc: "I'm not a faceless agency I'm Anu, your landlady. You get direct access and genuine care." },
                 { title: "Wide Network", desc: "From Lagos to Ilorin, I've built trusted relationships with agents, lawyers, and inspectors to serve you better." },
-                { title: "Hassle‑Free", desc: "I handle the stress – tenant sourcing, maintenance, paperwork – so you can relax." },
+                { title: "Hassle Free", desc: "I handle the stress tenant sourcing, maintenance, paperwork so you can relax." },
                 { title: "Local Expertise", desc: "I know the neighborhoods, the prices, and the hidden gems. You get insider knowledge." }
               ].map((item, i) => (
                 <motion.div 
@@ -94,11 +94,11 @@ const About = () => {
       <section className="py-32 px-6">
         <motion.div {...fadeInUp} className="max-w-3xl mx-auto text-center">
           <h3 className="text-2xl md:text-3xl font-extralight italic mb-8 leading-relaxed text-gray-800">
-            A home is where your story begins. Whether you're renting, buying, or letting, I'm here to walk with you – every step of the way.
+            A home is where your story begins. Whether you're renting, buying, or letting, I'm here to walk with you every step of the way.
           </h3>
           <div className="w-12 h-[1px] bg-blue-900/30 mx-auto mb-8" />
           <p className="text-sm text-gray-600 font-light leading-relaxed max-w-xl mx-auto">
-            At {siteConfig.companyName}, you're not just a client – you're family. From the bustling streets of Lagos to the calm of Ibadan and the vibrant energy of Ilorin, I'm dedicated to making your property journey smooth, safe, and personal. Let's find your next home together.
+            At {siteConfig.companyName}, you're not just a client you're family. From the bustling streets of Lagos to the calm of Ibadan and the vibrant energy of Ilorin, I'm dedicated to making your property journey smooth, safe, and personal. Let's find your next home together.
           </p>
         </motion.div>
       </section>

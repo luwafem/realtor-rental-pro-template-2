@@ -10,7 +10,7 @@ export const siteConfig = {
   hero: {
     title: 'Your Home, Our Heart',
     subtitle: 'Rent, buy, or manage properties with a landlady who cares. Serving Lagos, Ilorin, Ibadan and beyond.',
-    backgroundImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop', // A welcoming home image
+    backgroundImage: 'https://francispolo.com/wp-content/uploads/2020/02/lagos-hero.jpg', // A welcoming home image
     ctaText: 'Browse Properties',
     ctaLink: '/properties'
   },
@@ -19,8 +19,8 @@ export const siteConfig = {
     {
       id: 'property-management',
       title: 'Property Management',
-      shortDesc: 'Stress‑free management for landlords. I handle tenants, rent, and maintenance.',
-      description: 'With years of experience as a landlady, I offer full‑service property management: tenant sourcing, rent collection, regular inspections, and maintenance coordination. You relax, I handle the rest.',
+      shortDesc: 'Stressfree management for landlords. I handle tenants, rent, and maintenance.',
+      description: 'With years of experience as a landlady, I offer full service property management: tenant sourcing, rent collection, regular inspections, and maintenance coordination. You relax, I handle the rest.',
       image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2070&auto=format&fit=crop',
       price: 'From 10% monthly rent',
       features: ['Tenant Sourcing', 'Rent Collection', '24/7 Maintenance', 'Regular Reports']
@@ -28,17 +28,17 @@ export const siteConfig = {
     {
       id: 'rentals',
       title: 'Rental Listings',
-      shortDesc: 'Quality homes for rent in prime locations – verified and ready to move in.',
-      description: 'From cosy flats in Ibadan to family houses in Lagos and modern apartments in Ilorin, I personally inspect every property to ensure it meets your standards. No agent fees – just honest listings.',
+      shortDesc: 'Quality homes for rent in prime locations verified and ready to move in.',
+      description: 'From cosy flats in Ibadan to family houses in Lagos and modern apartments in Ilorin, I personally inspect every property to ensure it meets your standards. No agent fees just honest listings.',
       image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2070&auto=format&fit=crop',
       price: 'Market rates',
-      features: ['No Hidden Fees', 'Verified Listings', 'Flexible Terms', 'Move‑in Support']
+      features: ['No Hidden Fees', 'Verified Listings', 'Flexible Terms', 'Move in Support']
     },
     {
       id: 'sales',
       title: 'Property Sales',
       shortDesc: 'Find your dream home or investment property with trusted guidance.',
-      description: 'Buying a home is a big step. I walk with you through every stage – from searching to title verification and negotiation. Whether in Lagos, Ilorin, or Ibadan, I help you find a place you’ll love.',
+      description: 'Buying a home is a big step. I walk with you through every stage from searching to title verification and negotiation. Whether in Lagos, Ilorin, or Ibadan, I help you find a place you’ll love.',
       image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=2070&auto=format&fit=crop',
       price: 'Negotiable',
       features: ['Wide Selection', 'Title Checks', 'Negotiation Support', 'Legal Referrals']
@@ -57,7 +57,7 @@ export const siteConfig = {
       id: 2,
       name: 'Mr. Chidi Okonkwo',
       role: 'Tenant, Lekki',
-      content: 'I found my apartment through Anu. She was honest, helpful, and made the process smooth. I recommend her to anyone looking for a stress‑free rental.',
+      content: 'I found my apartment through Anu. She was honest, helpful, and made the process smooth. I recommend her to anyone looking for a stressfree rental.',
       rating: 5
     },
     {
@@ -160,7 +160,7 @@ export const siteConfig = {
 
   meta: {
     title: 'Anu the Landlady | Trusted Real Estate & Property Management in Lagos, Ilorin, Ibadan',
-    description: 'Anu the Landlady offers reliable property management, rental listings, and sales across Nigeria. Rent or buy with confidence – no agent fees, just a landlady you can trust.',
+    description: 'Anu the Landlady offers reliable property management, rental listings, and sales across Nigeria. Rent or buy with confidence no agent fees, just a landlady you can trust.',
     ogImage: 'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?q=80&w=1200&auto=format&fit=crop',
     url: 'https://anuthelandlady.com.ng',
     twitterHandle: '@anuthelandlady'

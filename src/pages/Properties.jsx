@@ -27,7 +27,7 @@ const Properties = () => {
             </h1>
             <div className="flex flex-col md:flex-row gap-8 items-start justify-between border-t border-blue-900/20 pt-10">
               <p className="text-gray-600 font-light max-w-lg leading-relaxed italic">
-                A handpicked selection of quality homes and investment properties across Lagos, Ilorin, Ibadan, and beyond – personally vetted by Anu.
+                A handpicked selection of quality homes and investment properties across Lagos, Ilorin, Ibadan, and beyond personally vetted by Anu.
               </p>
               <div className="flex items-center gap-4">
                 <span className="text-[9px] uppercase tracking-widest text-blue-900/40 font-bold">Available Listings:</span>

@@ -19,7 +19,7 @@ const Services = () => {
     <div className="bg-white min-h-screen">
       <Helmet>
         <title>Our Services | {siteConfig.companyName}</title>
-        <meta name="description" content="Property management, rentals, and sales across Lagos, Ilorin, Ibadan, and beyond. Personal, honest service from Anu the Landlady – your trusted partner in Nigerian real estate." />
+        <meta name="description" content="Property management, rentals, and sales across Lagos, Ilorin, Ibadan, and beyond. Personal, honest service from Anu the Landlady your trusted partner in Nigerian real estate." />
       </Helmet>
 
       {/* Header Section */}
@@ -79,7 +79,7 @@ const Services = () => {
             Need a hand with your property?
           </h2>
           <p className="text-gray-600 font-light text-sm mb-10 leading-relaxed max-w-xl mx-auto">
-            Whether you're looking for a rental in Lagos, need a trustworthy tenant in Ibadan, or want to buy your first home in Ilorin – I'm here to help. No stress, just honest support.
+            Whether you're looking for a rental in Lagos, need a trustworthy tenant in Ibadan, or want to buy your first home in Ilorin I'm here to help. No stress, just honest support.
           </p>
           <motion.a 
             href="/contact"

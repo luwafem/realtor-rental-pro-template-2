@@ -67,7 +67,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-[10px] tracking-[0.3em] uppercase text-blue-900/60 mb-6 font-bold">Let's Connect</h3>
                 <p className="text-lg font-light text-gray-700 leading-relaxed italic">
-                  Looking for a home, tenant, or just some friendly advice? I'm here to help – no pushy sales, just honest talk. Reach out and let's chat.
+                  Looking for a home, tenant, or just some friendly advice? I'm here to help no pushy sales, just honest talk. Reach out and let's chat.
                 </p>
               </div>
 
