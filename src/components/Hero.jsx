@@ -75,11 +75,6 @@ const Hero = () => {
             transition={{ delay: 2, duration: 1 }}
             className="absolute bottom-32 left-1/2 -translate-x-1/2 hidden md:block"
           >
-            <div className="flex items-center gap-4">
-              <span className="h-[1px] w-12 bg-white/20" />
-              <span className="text-[8px] tracking-[0.4em] uppercase text-white/40 font-light">Explore</span>
-              <span className="h-[1px] w-12 bg-white/20" />
-            </div>
           </motion.div>
         </motion.div>
       </div>
